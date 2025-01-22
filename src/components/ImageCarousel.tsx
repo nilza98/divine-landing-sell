@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import "./ImageCarousel.css";
 
 interface Image {
   url: string;
@@ -77,14 +78,15 @@ export const ImageCarousel = () => {
           <div
             key={index}
             onClick={() => goToSlide(index)}
-            className={`thumbnail w-20 h-20 rounded-md overflow-hidden ${
-              currentIndex === index ? "active" : ""
-            }`}
+            className={`cursor-pointer border-2 ${
+              currentIndex === index ? "border-blue-500" : "border-transparent"
+            } w-20 h-20 rounded-md overflow-hidden transition-all hover:opacity-80`}
           >
             <img
               src={image.url}
               alt={`Thumbnail ${index + 1}`}
               className="w-full h-full object-cover"
+              loading="eager"
             />
           </div>
         ))}
