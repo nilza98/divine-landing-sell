@@ -20,7 +20,7 @@ const Index = () => {
             href="https://wa.me/5548998647038?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20im%C3%B3vel."
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-primary hover:bg-primary-dark text-white font-bold py-4 px-8 rounded-full transition-colors duration-300"
+            className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full transition-colors duration-300"
           >
             ENTRE EM CONTATO!
           </a>
@@ -43,7 +43,7 @@ const Index = () => {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/seu-id-do-video"
+              src="https://www.youtube.com/embed/3atrbq8aOBE"
               title="Tour Virtual da Casa"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -69,7 +69,7 @@ const Index = () => {
             href="https://wa.me/5548998647038?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20im%C3%B3vel."
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-primary hover:bg-primary-dark text-white font-bold py-4 px-8 rounded-full transition-colors duration-300"
+            className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full transition-colors duration-300"
           >
             QUERO NEGOCIAR AGORA!
           </a>
