@@ -1,5 +1,6 @@
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { ImageCarousel } from "@/components/ImageCarousel";
+import { OrbEffect } from "@/components/ui/orb-effect";
 
 const Index = () => {
   return (
@@ -7,6 +8,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative h-screen">
         <div className="absolute inset-0 bg-gradient-to-r from-primary-dark/80 to-primary/80" />
+        <OrbEffect />
         <img
           src="https://i.im.ge/2025/01/22/HQeTWL.WhatsApp-Image-2025-01-21-at-11-47-50.jpeg"
           alt="Fachada da casa"
