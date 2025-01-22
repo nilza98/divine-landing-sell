@@ -9,11 +9,6 @@ const Index = () => {
       <section className="relative h-screen">
         <div className="absolute inset-0 bg-gradient-to-r from-primary-dark/80 to-primary/80" />
         <OrbEffect />
-        <img
-          src="https://i.im.ge/2025/01/22/HQeTWL.WhatsApp-Image-2025-01-21-at-11-47-50.jpeg"
-          alt="Fachada da casa"
-          className="w-full h-full object-cover"
-        />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white p-4">
           <h1 className="text-4xl md:text-6xl text-center font-bold mb-4">
             Casa de esquina à venda no bairro Divinéia
